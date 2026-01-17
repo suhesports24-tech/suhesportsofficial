@@ -8,8 +8,6 @@ import ClubTeams from "./pages/ClubTeams";
 import LeaderboardPage from "./pages/Leaderboard";
 import Join from "./pages/Join";
 import Registrations from "./pages/Registrations";
-import BGMI from "./pages/BGMI";
-import FreeFire from "./pages/FreeFire";
 
 export default function App() {
   return (
@@ -23,9 +21,6 @@ export default function App() {
         <Route path="/leaderboard" element={<LeaderboardPage />} />
         <Route path="/join" element={<Join />} />
         <Route path="/registrations" element={<Registrations />} />
-      {/* 👇 GAME PAGES */}
-      <Route path="/register/bgmi" element={<BGMI />} />
-      <Route path="/register/freefire" element={<FreeFire />} />
         {/* FALLBACK */}
         <Route
           path="*"
