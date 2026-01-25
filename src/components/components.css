@@ -1378,4 +1378,83 @@ button:disabled {
   background: rgba(239, 68, 68, 0.15);
   color: #ef4444;
 }
+.team-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.team-form input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.05);
+  color: white;
+  outline: none;
+}
+
+.team-form input::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+/* POPUP OVERLAY */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  padding: 16px;
+}
+
+/* POPUP BOX */
+.popup {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  padding: 20px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 640px) {
+  .popup {
+    border-radius: 14px;
+    padding: 16px;
+  }
+
+  .popup h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+/* FORM */
+.team-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.team-form input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  font-size: 14px;
+}
+
+.team-form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* CLOSE BUTTON */
+.popup-close {
+  margin-top: 14px;
+  text-align: center;
+}
 
