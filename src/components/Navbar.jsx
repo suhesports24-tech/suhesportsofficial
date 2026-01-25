@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./components.css";
 import logo from "../assets/logo.png";
+import logomai from "../assets/logomain.png";
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -29,7 +31,7 @@ export default function Navbar() {
         <div className="nav-logo">
           <div className="logo-circle">
             <img
-              src={logo}
+              src={logomai}
               alt="SUH E-Sports Logo"
               className="logo-img"
             />
