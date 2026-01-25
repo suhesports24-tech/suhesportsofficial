@@ -1337,3 +1337,45 @@ button:disabled {
   object-fit: cover;   /* ⬅️ CRITICAL (prevents stretch) */
   border: none; /* optional glow */
 }
+.reg-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.reg-title.bgmi {
+  color: #a855f7; /* purple */
+}
+
+.reg-title.freefire {
+  color: #fb923c; /* orange */
+}
+
+.reg-title.minecraft {
+  color: #22c55e; /* green */
+}
+.reg-card:hover .reg-title.bgmi {
+  text-shadow: 0 0 10px #a855f7;
+}
+
+.reg-card:hover .reg-title.freefire {
+  text-shadow: 0 0 10px #fb923c;
+}
+
+.reg-card:hover .reg-title.minecraft {
+  text-shadow: 0 0 10px #22c55e;
+}
+.status-badge.upcoming {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+}
+
+.status-badge.live {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+}
+
+.status-badge.ended {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+}
+

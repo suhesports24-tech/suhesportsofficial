@@ -9,6 +9,7 @@ import "../components/components.css";
 const FORM_URLS = {
   BGMI: "https://docs.google.com/forms/d/e/XXXXXXXX/viewform",
   "Free Fire": "https://docs.google.com/forms/d/e/YYYYYYYY/viewform",
+  Minecraft:"https://docs.google.com/forms/d/e/YYYYYYYY/viewform",
 };
 
 export default function Registrations() {
@@ -27,7 +28,14 @@ export default function Registrations() {
       sub: "Free Fire Battle India",
       players: "Squad • 4–5 Players",
       status: "UPCOMING",
-      theme: "valorant",
+      theme: "freefire",
+    },
+    {
+      name: "Minecraft",
+      sub: "Minecraft Battle",
+      players: "Squad • 4–5 Players",
+      status: "UPCOMING",
+      theme: "minecraft",
     },
   ];
 
