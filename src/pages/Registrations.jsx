@@ -27,6 +27,13 @@ export default function Registrations() {
   });
 
   const games = [
+        {
+      name: "Free Fire",
+      sub: "Free Fire Battle India",
+      players: "Squad • 4–5 Players",
+      status: "LIVE",
+      theme: "freefire",
+    },
     {
       name: "BGMI",
       sub: "Battlegrounds Mobile India",
@@ -34,13 +41,7 @@ export default function Registrations() {
       status: "UPCOMING", // LIVE | UPCOMING | ENDED
       theme: "bgmi",
     },
-    {
-      name: "Free Fire",
-      sub: "Free Fire Battle India",
-      players: "Squad • 4–5 Players",
-      status: "LIVE",
-      theme: "freefire",
-    },
+
     {
       name: "Minecraft",
       sub: "Minecraft Battle",
