@@ -8,11 +8,12 @@ import "../components/components.css";
 /* 🔗 GOOGLE FORM URLS */
 const FORM_URLS = {
   BGMI: "https://docs.google.com/forms/d/e/1FAIpQLScPoYi1ACNYxZxzqfaipu_-8cwECSRDGZ-kvrbFf1rf8rKcXQ/viewform",
-  "Free Fire": "https://docs.google.com/forms/d/e/1FAIpQLSeN7VD2SzpBjHeFBwrY7fE0TLOCK-8tnap3zsEn4hDXJrFV6g/viewform?usp=header",
+  "Free Fire":
+    "https://docs.google.com/forms/d/e/1FAIpQLSeN7VD2SzpBjHeFBwrY7fE0TLOCK-8tnap3zsEn4hDXJrFV6g/viewform?usp=header",
   Minecraft: "https://docs.google.com/forms/d/e/ZZZZZZZZ/viewform",
 };
 
-/* 📊 GOOGLE SHEET API (Apps Script Web App URL) */
+/* 📊 GOOGLE SHEET API */
 const SHEET_API_URL =
   "https://script.google.com/macros/s/AKfycbwOzbQoeHmalMmYUVmp_upOtk4VC4qnWBcExL1ZQfczVkgUtW52kI90PsCQNioye6e_/exec";
 
@@ -27,7 +28,7 @@ export default function Registrations() {
   });
 
   const games = [
-      {
+    {
       name: "Free Fire",
       sub: "Free Fire Battle India",
       players: "Squad • 4–5 Players",
@@ -38,10 +39,9 @@ export default function Registrations() {
       name: "BGMI",
       sub: "Battlegrounds Mobile India",
       players: "Squad • 4–5 Players",
-      status: "UPCOMING", // LIVE | UPCOMING | ENDED
+      status: "UPCOMING",
       theme: "bgmi",
     },
-
     {
       name: "Minecraft",
       sub: "Minecraft Battle",
@@ -59,7 +59,7 @@ export default function Registrations() {
     });
   };
 
-  /* ✅ SUBMIT → REDIRECT → SAVE IN BACKGROUND */
+  /* ✅ SUBMIT */
   const handleSubmit = () => {
     if (
       !teamForm.teamName ||
@@ -71,11 +71,9 @@ export default function Registrations() {
       return;
     }
 
-    // ✅ 1. REDIRECT IMMEDIATELY (BROWSER ALLOWS THIS)
     const formUrl = FORM_URLS[activeGame.name];
     window.location.href = formUrl;
 
-    // ✅ 2. SAVE TO GOOGLE SHEET IN BACKGROUND (NO AWAIT)
     fetch(SHEET_API_URL, {
       method: "POST",
       body: JSON.stringify({
@@ -95,6 +93,15 @@ export default function Registrations() {
       <Navbar />
 
       <Section title="Game Registrations">
+        {/* ✅ CONTACT LINE (THIS IS THE FIX) */}
+        <p className="section-note">
+          If you face any issues, contact{" "}
+          <a href="tel:6302898098" className="contact-link">
+            6302898098
+          </a>{" "}
+          – Rithvik Nag (Technical Head)
+        </p>
+
         <div className="reg-grid">
           {games.map((game) => (
             <div
