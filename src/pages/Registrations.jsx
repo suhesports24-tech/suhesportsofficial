@@ -8,7 +8,7 @@ import "../components/components.css";
 /* 🔗 GOOGLE FORM URLS */
 const FORM_URLS = {
   BGMI: "https://docs.google.com/forms/d/e/1FAIpQLScPoYi1ACNYxZxzqfaipu_-8cwECSRDGZ-kvrbFf1rf8rKcXQ/viewform",
-  "Free Fire": "https://docs.google.com/forms/d/e/YYYYYYYY/viewform",
+  "Free Fire": "https://docs.google.com/forms/d/e/1FAIpQLSeN7VD2SzpBjHeFBwrY7fE0TLOCK-8tnap3zsEn4hDXJrFV6g/viewform?usp=header",
   Minecraft: "https://docs.google.com/forms/d/e/ZZZZZZZZ/viewform",
 };
 
@@ -38,7 +38,7 @@ export default function Registrations() {
       name: "Free Fire",
       sub: "Free Fire Battle India",
       players: "Squad • 4–5 Players",
-      status: "UPCOMING",
+      status: "LIVE",
       theme: "freefire",
     },
     {
