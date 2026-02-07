@@ -27,7 +27,7 @@ export default function Registrations() {
   });
 
   const games = [
-        {
+      {
       name: "Free Fire",
       sub: "Free Fire Battle India",
       players: "Squad • 4–5 Players",
