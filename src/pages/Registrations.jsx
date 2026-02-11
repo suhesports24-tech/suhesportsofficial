@@ -32,7 +32,7 @@ export default function Registrations() {
       name: "Free Fire",
       sub: "Free Fire Battle India",
       players: "Squad • 4–5 Players",
-      status: "LIVE",
+      status: "ENDED",
       theme: "freefire",
     },
     {
