@@ -1,9 +1,10 @@
 import "./components.css";
 
-export default function Leaderboard({ data }) {
+export default function Leaderboard({ title, data }) {
   return (
     <div className="leaderboard glass animate">
-      <div className="lb-title">🏆 Leaderboard</div>
+      {/* ✅ Dynamic Group Title */}
+      <div className="lb-title">🏆 {title}</div>
 
       <div className="lb-row header">
         <div>Rank</div>

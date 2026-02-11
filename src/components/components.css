@@ -1526,4 +1526,7 @@ button:disabled {
 .contact-link:hover {
   text-decoration: underline;
 }
+.section {
+  margin-bottom: px;   /* Reduce this */
+}
 
