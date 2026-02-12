@@ -22,13 +22,13 @@ export default function Events() {
       {/* ONGOING EVENTS */}
 
       {/* UPCOMING EVENTS */}
-      <Section title="Upcoming Events">
+      <Section title="On Going Events">
         <div className="events-grid">
           <EventCard
             image={up}
             title="BGMI & FREE FIRE Tournments"
             desc="Inter & Intra Champions."
-            status="UPCOMING"
+            status="Running"
           />
         </div>
       </Section>

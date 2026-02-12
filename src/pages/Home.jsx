@@ -27,7 +27,7 @@ export default function Home() {
               <p style={{ margin: "12px 0", opacity: 0.8 }}>
                 Register now and compete with the best.
               </p>
-              <Button>Registrations Open Soon...</Button>
+              <Button>Registrations Open</Button>
             </Card>
 
             <Card>
@@ -35,7 +35,7 @@ export default function Home() {
               <p style={{ margin: "12px 0", opacity: 0.8 }}>
                 Squad-based knockout event.
               </p>
-              <Button>Registrations Open Soon...</Button>
+              <Button>Running</Button>
             </Card>
           </div>
         </Section>

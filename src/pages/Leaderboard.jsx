@@ -6,21 +6,26 @@ import Footer from "../components/Footer";
 export default function LeaderboardPage() {
 
   const groupA = [
-    { name: "", score: 0 },
-    { name: "", score: 0 },
-    { name: "", score: 0},
+    { name:"TITAN ESP", score:93 },
+    { name:"Galaxy Racers", score:57 },
+    { name:"Lungi Hunters", score:35},
+    { name:"Team Neural strike", score:29},
+
   ];
 
   const groupB = [
-    { name: "", score: 0 },
-    { name: "", score: 0 },
-    { name: "", score: 0 },
+    { name: "ZEDxESPORTS", score:68 },
+    { name: "INDIA 🇮🇳", score:56 },
+    { name: "CHAMPS", score:53 },
+    { name: "Caution !!!", score:48 },
+
   ];
 
   const groupC = [
-    { name: "", score: 0 },
-    { name: "", score: 0 },
-    { name: "", score: 0 },
+    { name:"Team EGO", score:60 },
+    { name:"Team OBLYX ", score:52 },
+    { name:"Team Matrix", score:51 },
+    { name:"TOXIC", score:41 },
   ];
 
   return (

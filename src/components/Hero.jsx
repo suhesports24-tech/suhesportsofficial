@@ -38,7 +38,7 @@ export default function Hero() {
           </p>
 
           <Link to="/registrations" style={{ textDecoration: "none" }}>
-            <Button>Registrations Open Soon...</Button>
+            <Button>Registrations Open</Button>
           </Link>
         </Card>
       </div>

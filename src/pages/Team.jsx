@@ -32,8 +32,6 @@ export default function Team() {
           <TeamCard name="Harshith " role="Opertion Head"image={noxs} />
           <TeamCard name="Shreyas" role="Organizing Head"image={Shreyas} />
           <TeamCard name="Chaitanya" role="Documentation Head" image={chaii}/>
-          <TeamCard name="Manikanta" role="Marketing & Sponsoeship" />
-          <TeamCard name="Bhavyaa Jha" role="Content Creater " />
           <TeamCard name="Abhi Sathwik" role="Photography Head" />
         </div>
       </Section>
