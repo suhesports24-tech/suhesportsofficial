@@ -7,7 +7,7 @@ import "../components/components.css";
 
 /* 🔗 GOOGLE FORM URLS */
 const FORM_URLS = {
-  BGMI: "https://docs.google.com/forms/d/e/1FAIpQLScPoYi1ACNYxZxzqfaipu_-8cwECSRDGZ-kvrbFf1rf8rKcXQ/viewform",
+  BGMI: "https://docs.google.com/forms/d/e/1FAIpQLSfiE_Us8UPOk-fXI8jtEPCmMSm5pj-5lCeHHWnk7yfpsF1j2Q/viewform?usp=dialog",
   "Free Fire":
     "https://docs.google.com/forms/d/e/1FAIpQLSeN7VD2SzpBjHeFBwrY7fE0TLOCK-8tnap3zsEn4hDXJrFV6g/viewform?usp=header",
   Minecraft: "https://docs.google.com/forms/d/e/ZZZZZZZZ/viewform",
@@ -28,6 +28,13 @@ export default function Registrations() {
   });
 
   const games = [
+        {
+      name: "BGMI",
+      sub: "Battlegrounds Mobile India",
+      players: "Squad • 4–5 Players",
+      status: "LIVE",
+      theme: "bgmi",
+    },
     {
       name: "Free Fire",
       sub: "Free Fire Battle India",
@@ -35,13 +42,7 @@ export default function Registrations() {
       status: "ENDED",
       theme: "freefire",
     },
-    {
-      name: "BGMI",
-      sub: "Battlegrounds Mobile India",
-      players: "Squad • 4–5 Players",
-      status: "UPCOMING",
-      theme: "bgmi",
-    },
+
     {
       name: "Minecraft",
       sub: "Minecraft Battle",
