@@ -32,7 +32,7 @@ export default function Registrations() {
       name: "BGMI",
       sub: "Battlegrounds Mobile India",
       players: "Squad • 4–5 Players",
-      status: "LIVE",
+      status: "ENDED",
       theme: "bgmi",
     },
     {

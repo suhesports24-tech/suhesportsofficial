@@ -5,38 +5,28 @@ import Footer from "../components/Footer";
 
 export default function LeaderboardPage() {
 
-  const groupA = [
-    { name:"TITAN ESP", score:215 },
-    { name:"Galaxy Racers", score:189 },
-    { name:"Team Neural strike", score:127},
-    { name:"SOUL BREAKERS", score:107},
-
-  ];
-
-  const groupB = [
-    { name: "Caution !!!", score:167},
-    { name: "ZEDxESPORTS", score:152},
-    { name: "CHAMPS", score:147},
-    { name: "Hellfire", score:126},
-
-  ];
-
-  const groupC = [
-    { name:"Team EGO", score:184},
-    { name:"Jai Bhavani Team", score:173},
-    { name:"TOXIC", score:156},
-    { name:"Team OBLYX ", score:138},
+  const grouptotal = [
+    { name:"GENUINE ESPORTS", score:38 },
+    { name:"DMWU", score:38},
+    { name:"VOID ACE", score:32},
+    { name:"PAY", score:30},
+    { name:"TR", score:22},
+    { name:"MGJ", score:14},
+    { name:"BLOOD STRIKERS", score:13},
+    { name:"GODLIKE", score:12},
+    { name:"ZENLOCK", score:12},
+    { name:"SOUL", score:11},
+    { name:"THE OG'S", score:2},
+    { name:"DUM", score:2},
   ];
 
   return (
     <>
       <Navbar />
 
-      <Section title="🔥 Free Fire Final Day  Standings & Selected To Lan Finals">
+      <Section title="🔥 BGMI Day 1  Standings ">
         <div className="leaderboard-grid">
-          <Leaderboard title="Group A" data={groupA} /> <br></br> <br></br>
-          <Leaderboard title="Group B" data={groupB} /> <br></br> <br></br>
-          <Leaderboard title="Group C" data={groupC} />
+          <Leaderboard title="Group Table" data={grouptotal} /> 
         </div>
       </Section>
 
