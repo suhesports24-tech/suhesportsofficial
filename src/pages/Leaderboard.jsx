@@ -6,17 +6,17 @@ import Footer from "../components/Footer";
 export default function LeaderboardPage() {
 
   const grouptotal = [
-    { name:"GENUINE ESPORTS", score:38 },
-    { name:"DMWU", score:38},
-    { name:"VOID ACE", score:32},
-    { name:"PAY", score:30},
-    { name:"TR", score:22},
-    { name:"MGJ", score:14},
-    { name:"BLOOD STRIKERS", score:13},
-    { name:"GODLIKE", score:12},
-    { name:"ZENLOCK", score:12},
+    { name:"DMWU", score:80},
+    { name:"VOID ACE", score:73},
+    { name:"GENUINE ESPORTS", score:65},
+    { name:"TR", score:50},
+    { name:"GODLIKE", score:47},
+    { name:"PAY", score:46},
+    { name:"ZENLOCK", score:21},
+    { name:"MGJ", score:17},
+    { name:"BLOOD STRIKERS", score:14},
     { name:"SOUL", score:11},
-    { name:"THE OG'S", score:2},
+    { name:"THE OG'S", score:5},
     { name:"DUM", score:2},
   ];
 
@@ -24,7 +24,7 @@ export default function LeaderboardPage() {
     <>
       <Navbar />
 
-      <Section title="🔥 BGMI Day 1  Standings ">
+      <Section title="🔥 BGMI Day 2  Standings ">
         <div className="leaderboard-grid">
           <Leaderboard title="Group Table" data={grouptotal} /> 
         </div>

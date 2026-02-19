@@ -27,7 +27,7 @@ export default function Home() {
               <p style={{ margin: "12px 0", opacity: 0.8 }}>
                 Register now and compete with the best.
               </p>
-              <Button>Registrations Open</Button>
+              <Button>Running</Button>
             </Card>
 
             <Card>
