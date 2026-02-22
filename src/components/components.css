@@ -1529,4 +1529,281 @@ button:disabled {
 .section {
   margin-bottom: px;   /* Reduce this */
 }
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
 
+.team-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.team-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.game-name {
+  color: #00ffff;
+  font-weight: 500;
+}
+/* ================= TEAM CARD ================= */
+
+.team-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.team-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255, 165, 0, 0.4);
+  border: 1px solid rgba(255, 165, 0, 0.6);
+}
+
+/* ================= LOGO CENTER CIRCLE ================= */
+
+.team-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.team-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;   /* 🔥 makes circle */
+  border: 3px solid #ff9800;
+  padding: 5px;
+  background: #111;
+  transition: 0.4s ease;
+}
+
+.team-box:hover .team-logo {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff9800;
+}
+
+/* ================= TEAM NAME ================= */
+
+.team-box h3 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.team-box:hover h3 {
+  color: #ff9800;
+}
+
+/* ================= GAME NAME ================= */
+
+.team-game {
+  font-size: 14px;
+  color: #ffa726;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+/* ================= MEMBERS ================= */
+
+.team-members {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.team-members div {
+  padding: 6px 0;
+  font-size: 14px;
+  color: #e0e0e0;
+  transition: 0.3s ease;
+}
+
+.team-members div:hover {
+  color: #ff9800;
+  transform: translateX(6px);
+}
+/* MEMBERS UNIFORM STYLE */
+.team-members div {
+  padding: 8px 0;
+  font-size: 14px;
+  color: #dcdcdc;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  text-transform: capitalize; /* makes names uniform */
+  transition: 0.3s ease;
+}
+
+/* Role styling */
+.team-members div span {
+  color: #ffb74d;
+  font-weight: 600;
+}
+
+/* Hover effect */
+.team-members div:hover {
+  color: #ffffff;
+  transform: translateX(6px);
+}
+/* ================= TEAM CARD ================= */
+
+.team-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.team-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255, 165, 0, 0.4);
+  border: 1px solid rgba(255, 165, 0, 0.6);
+}
+
+/* ================= LOGO ================= */
+
+.team-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.team-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ff9800;
+  padding: 5px;
+  background: #111;
+  transition: 0.4s ease;
+}
+
+.team-box:hover .team-logo {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff9800;
+}
+
+/* ================= TEAM NAME ================= */
+
+.team-box h3 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.team-box:hover h3 {
+  color: #ff9800;
+}
+
+/* ================= GAME ================= */
+
+.team-game {
+  font-size: 14px;
+  color: #ffa726;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+/* ================= TEAM BOX ================= */
+
+.team-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  padding: 25px 20px;
+  transition: 0.3s ease;
+}
+
+.team-box:hover {
+  transform: translateY(-6px);
+}
+
+/* ================= LOGO ================= */
+
+.team-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.team-logo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ff9800;
+}
+
+/* ================= TEAM TITLE ================= */
+
+.team-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.team-game {
+  font-size: 14px;
+  color: #ffb74d;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+/* ================= MEMBERS ================= */
+/* ===== SIMPLE PLAYER LIST ===== */
+
+.team-members {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.member-row {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+.member-name {
+  font-weight: 400;   /* normal weight */
+  color: #e5e5e5;     /* soft white */
+}
+
+.member-role {
+  color: #b0b0b0;     /* subtle grey */
+  font-weight: 400;
+}
+
+.captain {
+  font-weight: 500;   /* slight highlight only */
+}
