@@ -59,7 +59,7 @@ export default function ClubTeams() {
               "GnxLuffy | Assaulter",
               "GnxEshwar | Entry Fragger",
               "GnxAryan | Assaulter",
-              "GnxLuckey | Support",
+              "GnxLucky | Support",
               "GodlSalvator | Support"
             ]}
           />
